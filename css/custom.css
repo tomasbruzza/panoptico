@@ -1,0 +1,41 @@
+/* Add here all your CSS customizations */
+* {
+    list-style: none;
+}
+
+ul {
+    padding: 0px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#footer .logo img {
+    max-width: 285px;
+    opacity: 0.5;
+}
+
+.footer-copyright {
+    font-size: 16px;
+}
+
+#header .header-nav.header-nav-links.header-nav-light-text nav > ul > li > a,
+#header .header-nav.header-nav-line.header-nav-light-text nav > ul > li > a {
+    color: #000;
+}
+
+.social-icons li a {
+    background: transparent;
+    color: #000 !important;
+}
+
+#header
+    .header-nav.header-nav-links.header-nav-light-text
+    nav
+    > ul
+    > li:hover
+    > a,
+#header .header-nav.header-nav-line.header-nav-light-text nav > ul > li > a {
+    color: #0879b0;
+}
